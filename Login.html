@@ -3,18 +3,19 @@
     <title>
     </title>
     <link rel = "stylesheet" type = "text/css" href = "css_Login.css">
+
   </head>
 
   <body>
     <div class = "loginHolder">
       <div class = "header">Login</div>
-      <form>
+      <form onSubmit = "window.location.href = 'Home.html'; return false;">
         <div class = "inp">Enter Username<br>
           <input type = "text" name = "user_name" placeholder = "Enter Username"><br></div>
         <div class = "inp">
         Enter Password<br>
         <input type = "password" name = "user_pass" placeholder = "Enter Password"><br></div>
-        <input type = "submit" value = "Go">
+       <input type = "submit" value = "Go">
       </form>
     </div>
   </body>

@@ -1,16 +1,16 @@
 body
 {
-  background: url('login_Background.jpg');
+  background: url('clubRegistration_Background.jpg');
   background-size: cover;
   background-position: center;
   color: white;
   text-align: center;
 }
-.loginHolder
+.holder
 {
   height: 500px;
   width: 400px;
-  background: rgba(39, 60, 117,0.95);
+  background: rgba(39, 60, 117,0.8);
   margin-left: 37%;
   margin-top: 10%;
   border-radius: 10px;
@@ -26,8 +26,17 @@ body
   font-size: 25px;
   font-weight: bold;
 }
-
-.inp input[type = "text"],input[type = "password"]
+.nav-item
+{
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.nav-item:hover
+{
+  border-bottom: 5px solid white;
+  font-weight: bold;
+}
+input[type = "text"],input[type = "number"]
 {
   width: 80%;
   height: 40px;
@@ -35,16 +44,16 @@ body
   background: transparent;
   color: white;
 }
-.loginHolder input[type = "submit"]
+input[type = "submit"]
 {
   margin-top: 20px;
   width: 100%;
   border: none;
   height: 40px;
-  background:red;
+  background: rgba(214, 48, 49,0.8);
   border-radius: 30px;
 }
-.loginHolder input[type = "submit"]:hover
+input[type = "submit"]:hover
 {
   background: black;
   color: white;

@@ -1,0 +1,44 @@
+body
+{
+  background : linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('contact_Background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-item
+{
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.nav-item:hover
+{
+  border-bottom: 5px solid white;
+  font-weight: bold;
+}
+.heading
+{
+  color: white;
+  margin-top: 130px;
+  text-align: center;
+  background: rgba(45, 52, 54,0.6);
+  border-radius: 10px;
+}
+.bot_Border
+{
+  font-weight: bold;
+  border-bottom: 2px dotted white;
+}
+.btn-info
+{
+    width: 50%;
+  background: transparent;
+  transition: all 0.5s ease-in-out;
+}
+.col-4
+{
+  text-align: right;
+  font-size: 20px;
+}
+.col-6
+{
+}
