@@ -1,0 +1,59 @@
+body
+{
+  background: url('login_Background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+.loginHolder
+{
+  height: 500px;
+  width: 400px;
+  background: rgba(39, 60, 117,0.95);
+  margin-left: 37%;
+  margin-top: 10%;
+  border-radius: 10px;
+  border-style: outset;
+  border-color" black;
+}
+.inp
+{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: left;
+  margin-left: 10%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.inp input[type = "text"],input[type = "password"]
+{
+  width: 80%;
+  height: 40px;
+  border: none;
+  background: transparent;
+  color: white;
+}
+.loginHolder input[type = "submit"]
+{
+  margin-top: 20px;
+  width: 100%;
+  border: none;
+  height: 40px;
+  background:red;
+  border-radius: 30px;
+}
+.loginHolder input[type = "submit"]:hover
+{
+  background: black;
+  color: white;
+  border-style: solid;
+  border-color: white;
+}
+.header
+{
+  padding-top: 50px;
+  font-size: 35px;
+  font-weight: bold;
+}
