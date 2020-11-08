@@ -1,0 +1,40 @@
+body
+{
+  background : linear-gradient(rgba(155, 89, 182),rgba(155, 89, 182));
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-item
+{
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.nav-item:hover
+{
+  border-bottom: 5px solid white;
+  font-weight: bold;
+}
+
+.row
+{
+  margin-top: 10px;
+}
+
+.imgBox1
+{
+  background: url('imgBox1.jpg');
+  background-size: cover;
+}
+
+.imgBox2
+{
+  background: url('imgBox2.jpg');
+  background-size: cover;
+}
+
+.textBox
+{
+  color: white;
+  background: black;
+}
