@@ -1,0 +1,63 @@
+body
+{
+  background : linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('topClubs_Background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+.nav-item
+{
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.nav-item:hover
+{
+  border-bottom: 5px solid white;
+  font-weight: bold;
+}
+
+
+#TopList
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  color: white;
+  background: rgba(0,0,0,0.5);
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+.holder
+{
+  margin-top: 30px;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+}
+
+td
+{
+  padding: 5px;
+  color: white;
+}
+.logo
+{
+  height: 50px;
+  width: 50px;
+  float: left;
+}
+
+h2
+{
+  float: left;
+}
+.rank
+{
+  float: left;
+}
